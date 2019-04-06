@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.ResultsController">
+   <children>
+      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #4CAF50;">
+         <children>
+            <JFXButton fx:id="prof" buttonType="RAISED" layoutX="-1.0" layoutY="300.0" onAction="#prof" prefHeight="50.0" prefWidth="200.0" text="Profile" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="300.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="exa" buttonType="RAISED" layoutX="-1.0" layoutY="302.0" onAction="#exmp" onMouseClicked="#exmp" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2E7D32;" text="Exams" textAlignment="CENTER" textFill="WHITE" AnchorPane.topAnchor="350.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXButton>
+            <Text fill="WHITE" layoutX="-1.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;/Classroom&gt;" textAlignment="CENTER" wrappingWidth="200.0" AnchorPane.bottomAnchor="555.515625" AnchorPane.leftAnchor="-1.0" AnchorPane.topAnchor="13.86328125">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <JFXButton fx:id="log" buttonType="RAISED" layoutX="1.0" layoutY="537.0" onAction="#logout" prefHeight="50.0" prefWidth="200.0" text="logout" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <JFXButton buttonType="RAISED" layoutX="742.0" onAction="#clickx" prefHeight="23.0" prefWidth="33.0" text="X" textFill="#4caf50" fx:id="xb">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </JFXButton>
+      <Text fill="#4caf50" layoutX="363.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Edit Student Details" wrappingWidth="241.21875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <JFXButton fx:id="det" buttonType="RAISED" layoutX="597.0" layoutY="505.0" onAction="#start2" prefHeight="33.0" prefWidth="128.0" style="-fx-background-color: #4CAF50;" text="Show Details" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="adhr" labelFloat="true" layoutX="536.0" layoutY="329.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Aadhar Number" />
+      <JFXTextField fx:id="cst" labelFloat="true" layoutX="250.0" layoutY="393.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Caste" />
+      <JFXTextField fx:id="cat" labelFloat="true" layoutX="536.0" layoutY="393.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Admitted Category(Merit/Mgmt)" />
+      <JFXTextField fx:id="mail" labelFloat="true" layoutX="250.0" layoutY="267.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Email id" />
+      <JFXTextField fx:id="ph" labelFloat="true" layoutX="536.0" layoutY="267.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Phone number" />
+      <JFXTextField fx:id="bg" labelFloat="true" layoutX="250.0" layoutY="329.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Blood Group" />
+      <JFXButton fx:id="sub1" buttonType="RAISED" layoutX="258.0" layoutY="505.0" onAction="#subm" prefHeight="33.0" prefWidth="128.0" style="-fx-background-color: #4CAF50;" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

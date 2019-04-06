@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="bg" fx:id="bg" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane id="main" fx:id="main" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #fffff;">
+         <children>
+            <AnchorPane id="drawer" fx:id="drawer" prefHeight="600.0" prefWidth="0.0" style="-fx-background-color: #4CAF50;" />
+            <AnchorPane prefHeight="50.0" prefWidth="800.0" style="-fx-background-color: #4CAF50;">
+               <children>
+                  <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="669.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="50.0" />
+                  <JFXButton fx:id="res" layoutX="450.0" layoutY="3.0" prefHeight="50.0" prefWidth="100.0" text="Results" textFill="WHITE" AnchorPane.leftAnchor="450.0">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton fx:id="ex" layoutX="370.0" layoutY="3.0" prefHeight="50.0" prefWidth="100.0" text="Exams" textFill="WHITE" AnchorPane.leftAnchor="350.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+                  <JFXButton layoutX="750.0" layoutY="2.0" prefHeight="50.0" prefWidth="50.0" text="X" textFill="WHITE" AnchorPane.rightAnchor="0.0" fx:id="xb">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                  </JFXButton>
+                  <ImageView fitHeight="28.0" fitWidth="177.0" layoutX="34.0" layoutY="16.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="25.0">
+                     <image>
+                        <Image url="@logo.png" />
+                     </image>
+                  </ImageView>
+                  <JFXButton fx:id="pro" layoutX="252.0" layoutY="2.0" prefHeight="50.0" prefWidth="100.0" text="Profile" textFill="WHITE" AnchorPane.leftAnchor="252.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </AnchorPane>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

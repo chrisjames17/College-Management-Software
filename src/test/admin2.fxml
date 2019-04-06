@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="test.AdminController">
+   <children>
+      <Text fill="#4caf50" layoutX="353.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enter Student Details" wrappingWidth="241.21875">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <JFXButton buttonType="RAISED" layoutX="742.0" onAction="#closeButton" prefHeight="23.0" prefWidth="33.0" text="X" textFill="#4caf50" fx:id="xb">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </JFXButton>
+      <AnchorPane prefHeight="600.0" prefWidth="200.0" style="-fx-background-color: #4CAF50;">
+         <children>
+            <Text fill="WHITE" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="&lt;/Classroom&gt;" textAlignment="CENTER" wrappingWidth="200.0">
+               <font>
+                  <Font size="26.0" />
+               </font>
+            </Text>
+            <ImageView fitHeight="150.0" fitWidth="150.0" layoutX="36.0" layoutY="111.0" opacity="0.55" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="36.0" AnchorPane.rightAnchor="36.04081726074219">
+               <image>
+                  <Image url="@img_253721.png" />
+               </image>
+            </ImageView>
+            <JFXButton fx:id="addusr" buttonType="RAISED" layoutY="324.0" onAction="#b" prefHeight="50.0" prefWidth="200.0" style="-fx-background-color: #2E7D32;" text="Add new user" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="adt" buttonType="RAISED" layoutY="374.0" onAction="#t" prefHeight="50.0" prefWidth="200.0" text="Add Teacher" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="log" buttonType="RAISED" layoutY="474.0" onAction="#logout" prefHeight="50.0" prefWidth="200.0" text="log out" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="exstusr" buttonType="RAISED" layoutY="424.0" onAction="#edit" prefHeight="50.0" prefWidth="200.0" text="Edit existing user " textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+      <JFXButton fx:id="sub" buttonType="RAISED" layoutX="422.0" layoutY="475.0" onAction="#subm" prefHeight="33.0" prefWidth="128.0" style="-fx-background-color: #4CAF50;" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </JFXButton>
+      <JFXTextField fx:id="adhr" labelFloat="true" layoutX="526.0" layoutY="319.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Aadhar Number" />
+      <JFXTextField fx:id="cst" labelFloat="true" layoutX="240.0" layoutY="383.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Caste" />
+      <JFXTextField fx:id="cat" labelFloat="true" layoutX="526.0" layoutY="383.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Admitted Category(Merit/Mgmt)" />
+      <JFXTextField fx:id="mail" labelFloat="true" layoutX="240.0" layoutY="257.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Email id" />
+      <JFXTextField fx:id="ph" labelFloat="true" layoutX="526.0" layoutY="257.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Phone number" />
+      <JFXTextField fx:id="bg" labelFloat="true" layoutX="240.0" layoutY="319.0" maxWidth="226.0" minWidth="226.0" prefHeight="33.0" prefWidth="226.0" promptText="Blood Group" />
+   </children>
+</AnchorPane>
